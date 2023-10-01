@@ -20,4 +20,29 @@ const nav = createTheme({
   },
 });
 
-export {nav};
+const homeLight=createTheme({
+    palette:{
+        primary:{
+            main:'#abd1c6'
+        },
+        headline:{
+            main:'#001e1d'
+        },
+        subheading:{
+            main:'#0f3433'
+        },
+        cardbackground:{
+            main:'#004643'
+        },
+        cardheading:{
+            main:'#fffffe'
+        },
+        cardparagraph:{
+            main:'#abd1c6'
+        }
+
+
+    }
+})
+
+export {nav,homeLight};
