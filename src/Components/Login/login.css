@@ -1,0 +1,18 @@
+body {
+    background-image: url('../../../public/1.png');
+    background-color: #abd1c66a;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+  }
+
+
+  .backG {
+    
+    background-image: black; /* Replace with your image path */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+  }
