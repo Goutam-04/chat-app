@@ -23,26 +23,27 @@ const nav = createTheme({
 const homeLight=createTheme({
     palette:{
         primary:{
-            main:'#abd1c6'
+            main:'#abd1c6',
         },
-        headline:{
-            main:'#001e1d'
+        text:{
+            primary:'#001e1d',
+            secondary:'#0f3433',
         },
-        subheading:{
-            main:'#0f3433'
+        background: {
+          default: '#abd1c6', // Background color
         },
         cardbackground:{
-            main:'#004643'
+            main:'#004643',
         },
         cardheading:{
-            main:'#fffffe'
+            main:'#fffffe',
         },
         cardparagraph:{
-            main:'#abd1c6'
-        }
+            main:'#abd1c6',
+        },
 
 
-    }
-})
+    },
+});
 
 export {nav,homeLight};
